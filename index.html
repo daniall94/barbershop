@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آرایشگاه</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500;700&family=Vazirmatn:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+   <header>
+  <div class="header-right">
+    <nav>
+      <a href="#services">خدمات</a>
+    </nav>
+    <a href="#contact" class="header-btn">رزرو وقت</a>
+  </div>
+  <a href="#" class="logo">
+    <img src="img/logo.svg" alt="لوگوی آرایشگاه وستا">
+  </a>
+</header>
+   <section class="hero">
+    <div class="hero-text">
+        <span class="eyebrow">رزرو انلاین در چند دقیقه </span>
+        <h1>BARBER SHOP<br>رزرو وقت آنلاین</h1>
+    <p>کم ترین زمان بهترین وقتتو بگیر</p>
+        <a href="#contact" class="btn">همین حالا وقت بگیر</a>
+    </div>
+    
+   </section>
+   <section class="services" id="services">
+    <h2 class="section-title">خدمات ما</h2>
+    <div class="services-grid">
+        <div class="card">
+           <img src="img/haircut.webp" alt="">
+  <span class="num">01</span>
+  <h3>اصلاح و استایل</h3>
+  <p>اصلاح مو و ریش با جدیدترین متدهای روز</p>
+</div>
+<div class="card">
+  <img src="img/color.webp" alt="">
+  <span class="num">02</span>
+  <h3>رنگ
+  <p>مشاوره رایگان رنگ متناسب با چهره</p>
+</div>
+<div class="card">
+  <img src="img/skincare.webp" alt="">
+  <span class="num">03</span>
+  <h3>مراقبت پوست</h3>
+  <p>پاکسازی و مراقبت تخصصی صورت</p>
+</div>
+    </div>
+   </section>
+   <dialog id="comments-dialog" aria-labelledby="comments-title">
+  <div class="dialog-body">
+    <div class="dialog-head">
+      <h3 id="comments-title">نظرات مشتری‌ها</h3>
+      <button type="button" class="dialog-close" id="close-comments" aria-label="بستن">×</button>
+    </div>
+
+    <div class="comment-list">
+      <div class="comment-item">
+        <div class="comment-head">
+          <div class="avatar">ع</div>
+          <div class="comment-meta">
+            <strong>علی رضایی</strong>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+        <p class="comment-text">اینجا واقعاً حرفه‌ای کار می‌کنن، رزرو آنلاینش هم خیلی راحت بود.</p>
+      </div>
+
+      <div class="comment-item">
+        <div class="comment-head">
+          <div class="avatar">م</div>
+          <div class="comment-meta">
+            <strong>محمد کریمی</strong>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+        <p class="comment-text">مدل مو دقیقاً همونی شد که می‌خواستم. حتماً دوباره میام.</p>
+      </div>
+
+      <div class="comment-item">
+        <div class="comment-head">
+          <div class="avatar">س</div>
+          <div class="comment-meta">
+            <strong>سینا احمدی</strong>
+            <span class="stars">★★★★☆</span>
+          </div>
+        </div>
+        <p class="comment-text">محیط تمیز و برخورد عالی. فقط ای کاش ساعت کاری‌شون بیشتر بود.</p>
+      </div>
+    </div>
+  </div>
+</dialog>
+  <section class="testimonial">
+  <div class="testimonial-row">
+
+    <div class="comment">
+      <div class="comment-head">
+        <div class="avatar">ع</div>
+        <div class="comment-meta">
+          <strong>علی رضایی</strong>
+          <span class="stars">★★★★★</span>
+        </div>
+      </div>
+      <p class="comment-text">اینجا واقعاً حرفه‌ای کار می‌کنن، رزرو آنلاینش هم خیلی راحت بود.</p>
+      <button type="button" class="comment-more">مشاهده همه‌ی نظرات</button>
+    </div>
+
+    <aside class="news">
+      
+  
+      <h2 class="news-heading">اطلاعیه‌ها</h2>
+
+      <article class="news-item">
+        <h3>تغییر ساعت کاری</h3>
+        <p>از این هفته، پنجشنبه‌ها تا ساعت ۲۲ باز هستیم.</p>
+        <span class="news-date">۱۱ آبان ۱۴۰۵</span>
+      </article>
+
+      <article class="news-item">
+        <h3>تخفیف مشتری‌های جدید</h3>
+        <p>اولین مراجعه‌ی هر مشتری ۲۰٪ تخفیف داره.</p>
+        <span class="news-date">۵ آبان ۱۴۰۵</span>
+      </article>
+    </aside>
+
+  </div>
+</section>
+  
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <h2>رزرو وقت</h2>
+    <p id="contact-intro">در خواست  و ارسال کن وقتتو بگیر</p>
+
+    <form id="booking-form">
+      <input type="text" name="name" placeholder="نام" required>
+      <input type="tel" name="phone" placeholder="شماره تماس" required>
+      <select name="service" required>
+        <option value="" disabled selected>بخش مورد نظر شما</option>
+        <option value="haircut">اصلاح و استایل</option>
+        <option value="color">رنگ </option>
+        <option value="skincare">مراقبت پوست</option>
+      </select>
+      <button type="submit">ارسال درخواست</button>
+    </form>
+
+    <div class="thanks" id="thanks" hidden>
+      <div class="thanks-icon">✓</div>
+      <h3>درخواستت ثبت شد</h3>
+      <p id="thanks-text"></p>
+    </div>
+  </div>
+</section>
+<footer>© 1405 نمونه کار-BARBERSHOP</footer>
+<script>
+  const form = document.getElementById('booking-form');
+  const intro = document.getElementById('contact-intro');
+  const thanks = document.getElementById('thanks');
+  const thanksText = document.getElementById('thanks-text');
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const name = form.querySelector('[name="name"]').value.trim();
+
+    if (name !== '') {
+      thanksText.textContent = name + ' عزیز، به‌زودی برای هماهنگی وقت باهات تماس می‌گیریم.';
+    } else {
+      thanksText.textContent = 'به‌زودی برای هماهنگی وقت باهات تماس می‌گیریم.';
+    }
+
+    form.hidden = true;
+    intro.hidden = true;
+    thanks.hidden = false;
+  });
+   const commentBox = document.querySelector('.comment');
+const dialog = document.getElementById('comments-dialog');
+const closeBtn = document.getElementById('close-comments');
+
+commentBox.addEventListener('click', function () {
+  dialog.showModal();
+});
+
+closeBtn.addEventListener('click', function () {
+  dialog.close();
+});
+
+dialog.addEventListener('click', function (event) {
+  if (event.target === dialog) {
+    dialog.close();
+  }
+});
+</script>
+</body>
+</html> 
+
